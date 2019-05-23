@@ -29,6 +29,7 @@ public class Main {
         Integer a = 99,b = 99, c=200, d =200;
         int e = 97,f = 'a';
         char g = 'a';
+		
         System.out.println(a==b);
         System.out.println(c==d);
         System.out.println(e==f);
