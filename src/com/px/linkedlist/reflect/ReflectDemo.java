@@ -15,6 +15,7 @@ public class ReflectDemo {
         System.out.println("华丽的分割线-----------------------------");
         Method[] methods = cl.getMethods();
         for (int i = 0; i < methods.length; i++) {
+
             System.out.println("获取的方法名："+methods[i].getName());
             methods[i].invoke(o,null);
         }
