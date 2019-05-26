@@ -30,6 +30,8 @@ public class Main {
         int e = 97,f = 'a';
         char g = 'a';
 		
+		
+		
         System.out.println(a==b);
         System.out.println(c==d);
         System.out.println(e==f);

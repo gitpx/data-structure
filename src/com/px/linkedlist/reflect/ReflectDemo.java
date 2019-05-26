@@ -26,6 +26,8 @@ class Proxy{
     String name = "proxy";
 
     public void run(){
+		
+		
         System.out.println("hello:"+name);
     }
 }
